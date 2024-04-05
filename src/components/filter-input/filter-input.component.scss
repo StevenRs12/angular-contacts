@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+  .input-search {
+    float: left;
+    width: 25%;
+  }
+}
+
+@media (max-width: 991px) {
+  .input-search {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    z-index: 1000;
+  }
+}
+
+.input-search {
+  height: 100vh;
+}
+
+input {
+  margin: 12px;
+  width: calc(100% - 46px);
+  padding: 8px;
+  border-radius: 4px;
+}

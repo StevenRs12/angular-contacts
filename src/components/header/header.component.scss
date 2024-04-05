@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background-color: var(--color-blue-primary);
+  padding: 24px;
+  .title {
+    font-size: 26px;
+    color: white;
+  }
+}
